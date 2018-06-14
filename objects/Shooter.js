@@ -6,7 +6,7 @@ function Shooter(startingX, startingY, team) {
     self.y = startingY;
     self.size = 80;
     self.speed = 2;
-    self.img = loadImage('/img/shooter.png');
+    self.img = loadImage('/SpaceBlasters/img/shooter.png');
     self.team = team;
     self.canShoot = true;
     self.delay = 1000
