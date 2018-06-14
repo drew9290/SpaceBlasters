@@ -1,3 +1,3 @@
 # SpaceBlasters
 
-https://drew9290.github.io/SpaceBlasters/
+https://drew9290.github.io/SpaceBlasters/index.html
