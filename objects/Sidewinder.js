@@ -6,7 +6,7 @@ function Sidewinder(startingX, startingY, team) {
     self.y = startingY;
     self.size = 20;
     self.speed = 6;
-    self.img = loadImage('../img/destiny.png');
+    self.img = loadImage('/img/destiny.png');
     self.team = team;
     
     self.control = function() {

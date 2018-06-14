@@ -10,9 +10,9 @@ function Bullet(startingX, startingY, vector, team) {
     self.vector = vector;
     
     if(self.team === playerTeam) {
-        self.img = loadImage('../img/bullet.png');
+        self.img = loadImage('/img/bullet.png');
     } else if(self.team === enemyTeam) {
-        self.img = loadImage('../img/egg2.png');
+        self.img = loadImage('/img/egg2.png');
     }
 
     self.control = function () {

@@ -9,7 +9,7 @@ function Ship(team) {
     self.size = 19;
     self.speed = 6;
     self.team = team;
-    self.img = loadImage('../img/d5yyptv.png');
+    self.img = loadImage('/img/d5yyptv.png');
     self.canShoot = true;
     self.delay = 290;
     
