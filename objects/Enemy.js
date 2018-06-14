@@ -6,7 +6,7 @@ function Enemy(startingX, startingY, team) {
     self.y = startingY;
     self.size = 20;
     self.speed = random(2, 6);
-    self.img = loadImage('/img/Asteroid.png');
+    self.img = loadImage('/SpaceBlasters/img/Asteroid.png');
     self.team = team;
 
     self.control = function () {
