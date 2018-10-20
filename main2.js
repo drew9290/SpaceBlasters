@@ -10,7 +10,7 @@ var player1;
 var player2;
 
 function setup() {
-    createCanvas(600, 700);
+    createCanvas(700, 625);
     player1 = new Ship(playerTeam);
     player2 = new Ship2(playerTeam);
 
@@ -25,7 +25,8 @@ function setup() {
 
     //plus the player
     sprites.push(player1);
-    sprites.push(player2);
+    //sprites.push(player2);
+// to remove a player from play simply put // in front of sprite command
 }
 
 function draw() {
